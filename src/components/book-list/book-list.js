@@ -4,7 +4,7 @@ import Spinner from '../spinner';
 import ErrorIndicator from '../error-indicator';
 import {connect} from 'react-redux';
 import {withBookstoreService} from '../hoc';
-import {fetchBooks, bookAddedToCart, bookRemovedFromCart, allBooksRemovedFromCart} from '../../actions';
+import {fetchBooks, bookAddedToCart} from '../../actions';
 import {compose} from '../../utils';
 import './book-list.css';
 
