@@ -34,4 +34,4 @@ const updateBookList = (state, action) => {
   }
 };
 
-export default updateBookList();
+export default updateBookList;
